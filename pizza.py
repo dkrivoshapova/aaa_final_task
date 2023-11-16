@@ -170,12 +170,8 @@ if __name__ == "__main__":
     p = get_pizza("margarita", "XL")
     if p is not None:
         print(p.dict())
-    menu = []
-    for pizza in PizzaType:
-        my_pizza = get_pizza(pizza.name, "XL")
-        menu.append(my_pizza)
-    my_pizza = get_pizza("margarita", "L")
-    print(menu[0] == menu[1])
-    print(menu[0] == my_pizza)
-    print(menu[0] == 0)
-    print(menu[0] == p)
+    p_2 = get_pizza("margarita", "XL")
+    p_3 = get_pizza("HAWAIIAN", "L")
+    print(p == p_2)
+    print(p == p_3)
+    print(p == 0)
