@@ -7,8 +7,8 @@ class PizzaType(Enum):
     List of current pizza recipes available at the pizzeria.
     """
 
-    MARGARITA = ("MARGARITA",)
-    PEPPERONI = ("PEPPERONI",)
+    MARGARITA = "MARGARITA"
+    PEPPERONI = "PEPPERONI"
     HAWAIIAN = "HAWAIIAN"
 
 
@@ -17,7 +17,7 @@ class PizzaSize(Enum):
     List of current pizza sizes available at the pizzeria.
     """
 
-    L = ("L",)
+    L = "L"
     XL = "XL"
 
 
